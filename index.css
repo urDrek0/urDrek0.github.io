@@ -1,0 +1,41 @@
+.header{
+    background-image: linear-gradient(rgba(27, 44, 69, 0.2),rgba(15,24,39, 1)),url(assests/bg-new.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.container-content1{
+    color: #86b8e1;
+    z-index: 2;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 15%;
+}
+
+.h1-content1{
+    font-size: 340%;
+    text-shadow: 11px;
+    color: #27e9b5;
+}
+
+.p-content1{
+    font-size: 130%;
+}
+
+.a-content1{
+    color: #27e9b5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.a-content1:before{
+    color: #27e9b5;
+}
+.a-content1:hover{
+    color: #86b8e1;
+    text-decoration: underline;
+}

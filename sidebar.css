@@ -1,0 +1,98 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100 800;
+    font-style: normal;
+    background: #0f1827;
+}
+
+.sidebar-nav .sidebar-container{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #162936;
+    border-radius: 0px 40px 0px 0px;
+}
+
+.sidebar-nav .sidebar-container li{
+    list-style: none;
+}   
+
+.sidebar-nav .sidebar-container li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #86b8e1;
+    position: relative;
+    padding: 25px 0 25px 25px;
+    text-shadow: 1px 0 10px rgba(34,34,34,0.8);
+}
+
+.sidebar-nav .sidebar-container li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(5,24,36, 0.8);
+    border-radius: 40px 0px 0px 40px;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar-nav .sidebar-container li a:hover{
+    color: #86b8e1;
+}
+.sidebar-nav .sidebar-container li a.active{
+    color: #27e9b5;
+}
+
+.sidebar-nav .sidebar-container li a:hover:before{
+    width: 95%;
+}
+.sidebar-nav .sidebar-container li a.active:before{
+    transition: all 0.3s ease-in-out;
+}
+.box-area{
+    font-size: 50px;
+    color: #27e9b5;
+    text-transform: uppercase;
+}
+.box-area{
+    width: 95%;
+}
+.sidebar-logo{
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    margin: 25px auto;
+    transition: all 0.3s ease-in-out;
+}
+.sidebar-logo:hover{
+    rotate: 10deg;
+    width: 180px;
+    height: 180px;
+}
+.sidebar-logo:before{
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+.sidebar-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}

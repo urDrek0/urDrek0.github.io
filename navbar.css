@@ -1,0 +1,42 @@
+.navbar-container {
+    background-color: #01121d;
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.navbar-content {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    color: #86b8e1;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-left: 250px;
+}
+
+button{
+    background: none;
+    border: none;
+    color: #86b8e1;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+button:before{
+    color: #86b8e1;
+}
+button:hover{
+    color: #ffffff;
+}
+button.active{
+    color: #27e9b5;
+}

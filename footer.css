@@ -1,0 +1,16 @@
+.footer-container{
+    height: 60px;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.footer-content{
+    color: #27e9b5;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 0.5px;
+}
+
+p.p-footer{
+    font-size: 15px;
+}
